@@ -1,0 +1,106 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 0;
+}
+
+.warning {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: 'Inter', sans-serif;
+  color: #0000FF;
+  margin-bottom: 1rem;
+
+}
+
+.warningIcon {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+
+}
+
+.warningText {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 0rem;
+  font-size: 14px;
+  font-weight: 700;
+  justify-content: center;
+}
+
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.image {
+  max-width: 100%;
+  opacity: 0.5;
+  border-radius: 8px;
+}
+
+
+.actions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.actions a {
+  text-decoration: underline;
+  color: #0000FF;
+  font-size: 14px;
+  text-align: center;
+  display: block; /* Ensures it behaves like a block element */
+  width: 100%;    /* Takes full width of its container */
+}
+
+
+.action:hover {
+  text-decoration: underline;
+}
+
+.actionText {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #000000;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.actionSubText{
+  font-size: 0.65rem;
+  color: #A0A0A0;
+  margin-top: 0.25rem;
+  text-align: center;
+}
+
+.backButton {
+  background-color: #0000FF;
+  color: white;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  width: 80%;
+  margin-top: 1rem; /* Ensure spacing below image */
+}
+
+.backButton:hover {
+  background-color: #1e40af;
+}
+
+

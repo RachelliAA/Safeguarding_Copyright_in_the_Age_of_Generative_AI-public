@@ -1,0 +1,13 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+.venv/
+.env
+
+assessment_instructions.txt
+policy_instructions.txt
+tweak_instructions.txt

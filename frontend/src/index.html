@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Get started with Add-on development using React and JavaScript with Document Sandbox Runtime" />
+        <meta name="keywords" content="Adobe, Express, Add-On, React, JavaScript, Document Sandbox Runtime" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500&display=swap" rel="stylesheet">
+        <script type="module" src="https://esm.run/@material/web/progress/circular-progress.js"></script>
+
+        <title>Get Started</title>
+    </head>
+    <body>
+        <div id="root"></div>
+
+        <!-- Dynamic SDK load -->
+        <script type="module">
+            import("https://new.express.adobe.com/static/add-on-sdk/sdk.js")
+                .then((sdk) => {
+                    console.log("SDK loaded");
+                    // Now call your init logic
+                    // Example: init(sdk.runtime);
+                    
+                })
+                .catch((err) => {
+                    console.error("Failed to load Adobe SDK:", err);
+                });
+        </script>
+    </body>
+</html>

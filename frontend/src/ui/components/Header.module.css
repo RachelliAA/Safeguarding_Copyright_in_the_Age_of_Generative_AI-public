@@ -1,0 +1,64 @@
+.headerContainer {
+  width: 100%;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.topBar {
+  background-color: #0000FF;
+  color: #FFFFFF;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6px;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 28px;
+  object-fit: contain;
+  margin-left: 0px;
+}
+
+.slogan {
+  font-style: italic;
+  font-size: 12px;
+}
+
+.content {
+  padding: 14px;
+  box-sizing: border-box;
+}
+
+.apiInput {
+  width: 100%;
+  font-size: 12px;
+  color: #000;
+  border: none;
+  border-bottom: 1px solid #A0A0A0;
+  padding: 6px 4px;
+  font-family: 'Libre Franklin', sans-serif;
+  background-color: transparent;
+  outline: none;
+  margin-bottom: 5px;
+}
+
+.link {
+  font-size: 12px;
+  text-decoration: underline;
+  color: #0000FF;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.infoText {
+  font-size: 10px;
+  line-height: 15px;
+  color: #0000FF;
+  margin: 0;
+}
+
+.infoText a {
+  text-decoration: underline;
+  color: #0000FF;
+}

@@ -1,0 +1,7 @@
+PLACE HOLDER FILE
+There should be 2 files here:
+ 1. assessment_instructions.txt
+   Gets Policy as {policy_text}, has instructions on how to detect a breach, and instructs to returns a structured format     to the assessment
+ 2. policy_instructions.txt
+  structured format for the policy and instructions
+

@@ -1,0 +1,23 @@
+{
+    "testId": "f0e9551f-14b2-4248-bfb9-578c99cd007f",
+    "name": "Raily",
+    "version": "1.0.0",
+    "manifestVersion": 2,
+    "permissions": ["enableDragToDocument"],
+    "requirements": {
+        "apps": [
+            {
+                "name": "Express",
+                "apiVersion": 1
+            }
+        ]
+    },
+    "entryPoints": [
+        {
+            "type": "panel",
+            "id": "panel1",
+            "main": "index.html",
+            "documentSandbox": "code.js"
+        }
+    ]
+}

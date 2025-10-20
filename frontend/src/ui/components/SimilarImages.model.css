@@ -1,0 +1,53 @@
+.container {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  margin-top: 0;
+}
+
+.description {
+  color: #0000FF;
+  font-size: 16px;
+  margin: 0 auto 20px auto;
+  font-weight: 600;
+
+}
+
+.images-wrapper {
+  display: flex;
+  flex-wrap: wrap;          /* Allow wrapping to a new row */
+  justify-content: center;
+}
+
+.image-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.similar-image {
+  width: 90%;
+  height: auto;
+  border-radius: 8px; /* Add border radius */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+  cursor: grab;
+  object-fit: cover; /* Makes sure image doesn’t look distorted */
+}
+
+.backButton {
+  background-color: #0000FF;
+  color: white;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  width: 90%;
+  margin: 3rem auto 0 auto;  
+  justify-content: center;
+  display: block;
+}
+
+.backButton:hover {
+  background-color: #1e40af;
+}
+
+

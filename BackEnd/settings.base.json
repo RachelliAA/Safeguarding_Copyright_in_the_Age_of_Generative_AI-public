@@ -1,0 +1,14 @@
+{
+  "PROJECT_NAME": "MyApp",
+  "ENV": "development",
+  "OPENAI_MODEL": "gpt-4",
+  "IMAGE_MODEL_NAME": "black-forest-labs/FLUX.1-schnell-Free",
+  "TOGETHERAI_MODEL": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+  "CLIP_MODEL_NAME": "openai/clip-vit-base-patch32",
+  "AWS_REGION": "us-west-2",
+  "USERS_COLLECTION": "users",
+  "POLICIES_COLLECTION": "policies",
+  "ACTIONS_COLLECTION": "actions",
+  "ASSESSMENTS_COLLECTION": "assessments"
+
+}
