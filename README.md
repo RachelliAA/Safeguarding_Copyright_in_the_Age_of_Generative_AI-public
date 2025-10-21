@@ -43,3 +43,19 @@ Prompt optimization suggestions
 * Image-to-Text (I2NL) - semantic captioning
 * RAG Integration - live IP policy retrieval
 * Node.js + React - user interface and visualization
+
+**Deployment:**
+
+The system is deployed as an Adobe Express Add-on,
+enabling users to seamlessly integrate Raily.ai’s copyright compliance 
+checks directly within their creative workflow. 
+
+The add-on provides:
+
+Real-time evaluation of generated content within Adobe Express
+Visual feedback on policy compliance, similarity scores, and risk levels
+Prompt optimization suggestions without leaving the design environment
+
+This deployment ensures that creators can safely generate AI-assisted content while maintaining full adherence to intellectual property rules.
+![WhatsApp Image 2025-10-20 at 21 36 11_42c25628](https://github.com/user-attachments/assets/f7ce2a8f-b68e-4d9e-8d84-a703bfc57e3e)
+
